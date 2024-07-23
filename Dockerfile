@@ -2,7 +2,7 @@ FROM openjdk:17-jdk
 
 WORKDIR /app
 
-COPY target/World-Banking-Application-0.0.1-SNAPSHOT /app/worldbanking.jar
+COPY target/World-Banking-Application-0.0.1-SNAPSHOT.jar /app/worldbanking.jar
 
 EXPOSE 8080
 
